@@ -279,6 +279,10 @@ body{
 @media (max-width: 768px) {
     .container{
         width: 690px;
+        margin: 0 auto
+    }
+    .sec{
+        width: 760px;
     }
     .header{
         width: 690px;
@@ -395,6 +399,9 @@ body{
     .header-logo a img{
         width: 140px;
     }
+    .header-item{
+        display: none;
+    }
     .header-info{
         width: 330px;
         height: 500px;
@@ -473,6 +480,7 @@ body{
 
     .sec{
         margin-top: 350px;
+        width: 400px;
     }
     .works{
         width: 330px;
@@ -649,4 +657,197 @@ body{
     font-size: 16px;
     line-height: 26px;
     color: #333D4B;
+}
+
+@media (max-width: 768px) {
+    .container{
+        width: 690px;
+        margin: 0 auto
+    }
+    .header{
+        width: 690px;
+    }
+    .about-header-info{
+        width: 689px;
+        height: 400px;
+        margin: 0 auto;
+        background: url('./image/tablet-about-header-img.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: 160px;
+    }
+    .about-header-info__text{
+        width: 400px;
+        margin-left: 58px;
+        padding-top: 118px;
+    }
+    .about-header-info__title{
+        font-size: 32px;
+    }
+    .about-header-info-desk,
+    .about-hero-info__desk{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .about-hero{
+        width: 690px;
+        margin: 0 auto;  
+        margin-bottom: 240px;
+    }
+    .about-hero-image img{
+        width: 281px;
+        height: 470px;
+    }
+    .about-hero-info{
+        width: 339px;
+    }
+    .about-hero-info__title{
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+    .about-quality{
+        width: 690px;
+        margin: 0 auto;
+        flex-direction: column-reverse;
+        text-align: center;
+        margin-bottom: 200px;
+    }
+    .about-quality-info{
+        width: 540px;
+        margin-top: 100px;
+        margin-left: 85px;
+    }
+    .about-quality-info__title{
+        font-size: 32px;
+        margin-bottom: 24px;
+    }
+    .about-quality-info__text{
+        font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 60px;
+    }
+    .about-quality-image{
+        margin-left: -5px;
+    }
+    .about-quality-image img{
+        width: 573px;
+        height: 320px;
+    }
+
+    .about-map{
+        width: 690px;
+        margin: 0 auto; 
+    }
+    .about-map-cards{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 140px;
+    }
+    
+    .about-map-cards__item{
+        width: 300px;
+        padding: 15px;
+    }
+    .about-map-cards__item-image{
+        margin-bottom: 45px;    
+    }
+    .about-map-cards__item-title{
+        font-size: 24px;
+        margin-bottom: 21px;
+    }
+}
+
+@media (max-width: 375px) {
+    .container{
+        width: 330px;
+        margin: 0 auto
+    }
+    .header{
+        width: 330px;
+    }
+    .about-header-info{
+        width: 330px;
+        height: 400px;
+        margin: 0 auto;
+        background: url('./image/mobile-about-header-img.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: 160px;
+    }
+    .about-header-info__text{
+        width: 279px;
+        margin-left: 24px;
+        padding-top: 111px;
+    }
+    .about-header-info__title{
+        font-size: 28px;
+    }
+    .about-hero{
+        width: 330px;
+        margin: 0 auto;  
+        margin-bottom: 220px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .about-hero-image img{
+        width: 327px;
+        height: 400px;
+    }
+    .about-hero-info{
+        width: 339px;
+    }
+    .about-hero-info__desk{
+        width: 327px;
+    }
+    .about-quality{
+        width: 330px;
+        margin: 0 auto;
+        margin-bottom: 180px;
+    }
+    .about-quality-info{
+        width: 280px;
+        margin-left: 24px;
+    }
+    .about-quality-info__title{
+        font-size: 28px;
+        margin-bottom: 24px;
+    }
+    .about-quality-info__text{
+        font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 60px;
+    }
+    .about-quality-image img{
+        width: 279px;
+        height: 156px;
+    }
+
+    .about-map{
+        width: 330px;
+        margin: 0 auto; 
+    }
+    .about-map-title{
+        font-size: 24px;
+        text-align: center;
+    }
+    .about-map-cards{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 140px;
+    }
+    
+    .about-map-cards__item{
+        width: 300px;
+        padding: 15px;
+    }
+    .about-map-cards__item-image{
+        margin-bottom: 45px;    
+    }
+    .about-map-cards__item-title{
+        font-size: 24px;
+        margin-bottom: 21px;
+    }
 }
