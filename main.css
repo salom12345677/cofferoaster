@@ -40,7 +40,7 @@ body{
     background-image: url('./image/header-img.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    color: #ffff;
+    color: #fff;
     margin-bottom: 135px;
 }
 .header-info__text{
@@ -334,6 +334,7 @@ body{
         font-size: 32px;
     }
     .hero-card{
+        width: 570px;
         flex-direction: column;
         margin-left: 55px;
     }
@@ -394,7 +395,7 @@ body{
         margin: 0 auto;
     }    
     .header{
-        width: 330px;
+        width: 320px;
     }
     .header-logo a img{
         width: 140px;
@@ -459,6 +460,7 @@ body{
         font-size: 28px;
     }
     .hero-card{
+        width: 280px;
         flex-direction: column;
         margin-left: 25px;
     }
@@ -850,4 +852,27 @@ body{
         font-size: 24px;
         margin-bottom: 21px;
     }
+}
+
+
+/*  Subscireb  */
+
+.sub-header-info{
+    background: url(./image/header-bg-sub.png);
+}
+.sub-header-info__title{
+    font-size: 72px;
+}
+.sub-works-card{
+    width: 1280px;
+    height: 653px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #2C343E;
+    border-radius: 10px;
+}
+.sub-card__title,
+.sub-card-text{
+    color: #FEFCF7;
 }
